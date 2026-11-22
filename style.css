@@ -122,6 +122,55 @@ nav a:hover {
   line-height: 1.8;
   color: #555b6e;
 }
+.projects {
+  padding: 100px 30px;
+}
+
+.project-label {
+  color: #4779e8;
+
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.projects-content h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.projects-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.projects-description {
+  font-size: 18px;
+  color: #555b6e;
+  margin-bottom: 40px;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.project-card {
+  background-color: white;
+  padding: 35px;
+  border-radius: 20px;
+}
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.project-card p {
+  line-height: 1.7;
+}
+.project-tech {
+  margin-top: 25px;
+  color: #4779e8;
+  font-weight: bold;
+  font-size: 14px;
+}
 
 @media (max-width: 768px) {
   .hero {
