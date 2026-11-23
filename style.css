@@ -264,6 +264,10 @@ footer {
 .footer-links a:hover {
   color: #4779e8;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
