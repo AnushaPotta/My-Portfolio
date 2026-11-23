@@ -208,7 +208,62 @@ nav a:hover {
   font-weight: bold;
   font-size: 14px;
 }
+.contact {
+  padding: 100px 30px;
+  background-color: #202a44;
+  color: white;
+  text-align: center;
+}
+.contact-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.contact-label {
+  color: #c7f36b;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
 
+.contact-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.contact-description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #d0d4df;
+  margin-bottom: 30px;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #4779e8;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.contact-button:hover {
+  background-color: #365fc0;
+}
+footer {
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+.footer-links a:hover {
+  color: #4779e8;
+}
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
