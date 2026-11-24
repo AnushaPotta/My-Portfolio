@@ -268,6 +268,14 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #202a44;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -278,5 +286,11 @@ html {
     width: 220px;
     height: 220px;
     align-self: center;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
   }
 }
